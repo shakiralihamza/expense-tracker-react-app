@@ -81,8 +81,10 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  background-color: #b8b8b8;
-  border: none;
+  background-color: #585858;
+  border: 1px solid transparent;
+  color: white;
+  box-shadow: var(--box-shadow);
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -92,7 +94,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #abb612;
+  background-color: #800d6d;
   box-shadow: var(--box-shadow);
   color: white;
   border: 0;
@@ -115,9 +117,9 @@ input[type='number'] {
 }
 
 .list li {
-  background-color: #fff;
+  background-color: #585858;
+  color: white;
   box-shadow: var(--box-shadow);
-  color: #333;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -126,11 +128,11 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #681554;
+  border-right: 5px solid lime;
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid red;
 }
 
 .delete-btn {
