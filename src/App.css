@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 :root {
-  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --box-shadow: 0 1px 3px rgba(177, 27, 27, 0.4), 0 1px 2px rgba(58, 71, 186, 0.45);
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: rgb(41, 42, 48);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,6 +17,8 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  color: white;
+  opacity: 0.85;
 }
 
 .container {
@@ -30,7 +32,7 @@ h1 {
 }
 
 h3 {
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #bbbbbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;
 }
@@ -41,7 +43,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: #212121;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -55,7 +57,7 @@ h4 {
 }
 
 .inc-exp-container > div:first-of-type {
-  border-right: 1px solid #dedede;
+  border-right: 1px solid #808080;
 }
 
 .money {
@@ -65,11 +67,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: lime;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: red;
 }
 
 label {
@@ -79,7 +81,8 @@ label {
 
 input[type='text'],
 input[type='number'] {
-  border: 1px solid #dedede;
+  background-color: #b8b8b8;
+  border: none;
   border-radius: 2px;
   display: block;
   font-size: 16px;
@@ -89,9 +92,9 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #abb612;
   box-shadow: var(--box-shadow);
-  color: #fff;
+  color: white;
   border: 0;
   display: block;
   font-size: 16px;
@@ -123,7 +126,7 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid #681554;
 }
 
 .list li.minus {
